@@ -34,6 +34,8 @@ public class ScoreTest {
     Score score = new Score();
     score.scorePoints(5);
     assertEquals(5, score.getScore());
+    score.scorePoints(3);
+    assertEquals(8, score);
   }
 
 }
